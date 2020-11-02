@@ -1,12 +1,15 @@
 <div class="component__inner columns__inner">
   {{> component this}} 
 
-  {{!-- <div class="columns__main">
-  {{#each _items}}
-
-  {{/each}}
-  </div> 
+  {{#if _items}} 
+  <div class="columns__main">
+    {{#each _items}}
+      <div class="columns__col">{{{text}}}</div>
+    {{/each}}
+  </div>  
+  {{else}}
+  <div class="columns__body" style="column-count: {{_columns}}">{{{content}}}</div>
+  {{/if}}
   
-  {{#if body}} {{/if}} --}}
 
 </div>

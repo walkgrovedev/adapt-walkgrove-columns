@@ -29,6 +29,44 @@
       "validators": [],
       "help": "This is the instruction text",
       "translatable": true
+    },
+    "_columns": {
+      "type": "number",
+      "required": true,
+      "default": "",
+      "inputType": "Number",
+      "validators": ["required", "number"],
+      "help": "This is the instruction text",
+      "translatable": false
+    },
+    "content": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the content to be split into columns",
+      "translatable": true
+    },
+    "_items": {
+      "type": "array",
+      "required": false,
+      "title": "Column content items",
+      "items": {
+        "type": "object",
+        "required": true,
+        "properties": {
+          "text": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "inputType": "Text",
+            "validators": [],
+            "help": "This is the column text",
+            "translatable": true
+          }
+        }
+      }
     }
   }
 }
