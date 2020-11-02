@@ -1,0 +1,19 @@
+{
+    "name": "adapt-walkgrove-columns",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/walkgrovedev/adapt-walkgrove-columns.git"
+    },
+    "framework": "5",
+    "version": "1.0.0",
+    "homepage": "https://github.com/walkgrovedev/adapt-walkgrove-columns.git",
+    "component": "columns",
+    "displayName": "Columns",
+    "description": "A component ...",
+    "main": "/js/adapt-walkgrove-columns.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPL-3.0"
+}
