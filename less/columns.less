@@ -8,4 +8,23 @@
         flex: 1 1 0;
         width: 0;
     }
+
+
+    @media (max-width: @device-width-small) {
+        &__main {
+            flex-direction: column;
+        }
+        
+        .columns__body {
+             column-count: 1!important;
+         }   
+
+         &__col {
+            padding: 0!important;
+            display: block!important;
+            width: 100%!important;
+        }
+    }
+
+
 }
