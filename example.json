@@ -1,30 +1,30 @@
-{
-    "_id": "c-05",
-    "_parentId": "b-05",
-    "_type": "component",
-    "_component": "columns",
-    "_classes": "",
-    "_layout": "left",
-    "title": "Our first look at a component",
-    "displayTitle": "Our first look at a component",
-    "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
-    "instruction": "",
-    "_columns": 3,
-    "comment": "set eact column text using _items ...",
-    "_items": [
-        {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
-         },
-         {
-            "text": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>"
-         },
-         {
-            "text": "<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
-         }
-    ],
-    "comment2": "... or - split content automatically ...",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-    "_pageLevelProgress": {
-        "_isEnabled": true
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "columns",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Our first look at a component",
+        "displayTitle": "Our first look at a component",
+        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
+        "instruction": "",
+        "_columns": 3,
+        "comment": "set eact column text using _items ...",
+        "_items": [
+            {
+                "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+             },
+             {
+                "text": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>"
+             },
+             {
+                "text": "<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+             }
+        ],
+        "comment2": "... or - split content automatically ...",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
     }
-}
