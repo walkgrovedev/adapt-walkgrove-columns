@@ -12,6 +12,21 @@ define([
 
     postRender: function() {
       this.setReadyStatus();
+      this.setupInview();
+
+    },
+
+    setupInview: function() {
+      var selector = this.getInviewElementSelector();
+      if (!selector) {
+        this.setCompletionStatus();
+        return;
+      }
+      this.setupInviewCompletion(selector);
+    },
+
+    getInviewElementSelector: function() {
+      return '.columns__body';
     },
 
     checkIfResetOnRevisit: function() {
