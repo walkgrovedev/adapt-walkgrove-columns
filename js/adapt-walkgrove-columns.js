@@ -26,7 +26,7 @@ define([
     },
 
     getInviewElementSelector: function() {
-      return '.columns__body';
+      if (this.model.get('body')) return '.component__body';
     },
 
     checkIfResetOnRevisit: function() {
